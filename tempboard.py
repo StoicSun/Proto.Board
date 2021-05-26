@@ -6,7 +6,9 @@ def index():
     # Linking stuff
     wp.head_html = '<link href="https://unpkg.com/nes.css/css/nes.css" rel="stylesheet" />'
     wp.css = '@import url(https://fonts.googleapis.com/css?family=Press+Start+2P);'
-    wp.body_style = """background: url(https://raw.githubusercontent.com/StoicSun/Proto.Board/main/media/chess.webp);
+    wp.body_style = """
+    background: #FDFAF4;
+    background-image: url(https://raw.githubusercontent.com/StoicSun/Proto.Board/main/media/chess.webp);
     height: 100vh;
     position: relative;
     background-position: center;
