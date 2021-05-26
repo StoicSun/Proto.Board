@@ -8,7 +8,7 @@ def index():
     wp.css = '@import url(https://fonts.googleapis.com/css?family=Press+Start+2P);'
     wp.body_style = """
     background: rgba(255, 247, 237, 0.05);
-    background-image: url(https://raw.githubusercontent.com/StoicSun/Proto.Board/main/media/chess.webp);
+    background-image: url(https://raw.githubusercontent.com/StoicSun/Proto.Board/main/media/chess.png);
     height: 100vh;
     position: relative;
     background-position: center;
