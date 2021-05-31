@@ -43,7 +43,6 @@ def update_board(self,msg):
         for j in range(7):
                 enter_row(players[session_data[j].id],session_data[j].value)
         sorted_scores = return_row()
-        print(sorted_scores)
         if len(sorted_scores) >= 3:
                 self.first.text = f'First:{sorted_scores[-1]}'
                 self.sec.text = f'Second:{sorted_scores[-2]}'

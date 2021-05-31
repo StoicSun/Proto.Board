@@ -1,7 +1,10 @@
 # Proto.board
-A temporary solution for keeping the score until I can complete the main project
+A temporary solution for keeping the score until the day I can bother enough to make a more fleshed out version
 
 ## Usage 
-- Enter the player's name in the given boxes, press 'Add Player' to add more players
-- Increase/decrease the score by pressing the corresponding buttons
-- Press 'End Game' to finalize the scores
+1. Scores can be changed by anyone using the board
+2. Press the buttons to see who are the top three players
+3. All updates to the board are synced across all opened instances
+
+## Screenshot
+![Screenshot of the website](media/ss.JPG)
