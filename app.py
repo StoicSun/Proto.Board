@@ -6,6 +6,7 @@ scores = [0]*7
 players = {1:'Simi',2:'Suraj',3:'Abhi',4:'Piyush',5:'Ashish',6:'Nitu',7:'Parle'}
 wp = jp.WebPage(delete_flag=False)
 wp.title('ProtBoard')
+wp.favicon('static/list-svgrepo-com.svg')
 
 # Linking stuff
 wp.head_html = '''<link href="https://unpkg.com/nes.css/css/nes.css" rel="stylesheet" />
